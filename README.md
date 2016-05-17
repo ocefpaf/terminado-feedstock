@@ -5,7 +5,7 @@ Home: http://github.com/mitsuhiko/markupsafe
 
 Package license: BSD 3-clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Terminals served by tornado websockets
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/terminado-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/terminado-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/terminado-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/terminado-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/terminado-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/terminado-feedstock/branch/master)
