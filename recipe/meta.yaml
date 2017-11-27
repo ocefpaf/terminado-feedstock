@@ -5,8 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  fn: terminado-{{ version }}.tar.gz
-  url: https://github.com/takluyver/terminado/archive/0.6.tar.gz
+  url: https://pypi.io/packages/source/t/terminado/terminado-{{ version }}.tar.gz
   sha256: 984c914303fcd1642c1783cdc6727db24b0bc1494fa6363e6ae46696335e2944
 
 build:
