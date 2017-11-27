@@ -1,4 +1,4 @@
-{% set version = "0.6" %}
+{% set version = "0.8" %}
 
 package:
   name: terminado
@@ -7,19 +7,20 @@ package:
 source:
   fn: terminado-{{ version }}.tar.gz
   url: https://github.com/takluyver/terminado/archive/0.6.tar.gz
-  sha256: 6a1cfe8ede41962827ca8260bc64f387de85be62fd4e936bdde2ecf2a433931c
+  sha256: 984c914303fcd1642c1783cdc6727db24b0bc1494fa6363e6ae46696335e2944
 
 build:
   number: 0
   script: python setup.py install
-  skip: True  # [win]
+  skip: True  # [win and py27]
 
 requirements:
   build:
     - python
   run:
     - python
-    - ptyprocess
+    - ptyprocess  # [not win]
+    - pywinpty  # [win]
     - tornado >=4
 
 test:
@@ -40,5 +41,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - blink1073
     - pelson
     - takluyver 
