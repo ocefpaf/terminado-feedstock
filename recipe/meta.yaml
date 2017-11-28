@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/terminado/terminado-{{ version }}.tar.gz
-  sha256: 984c914303fcd1642c1783cdc6727db24b0bc1494fa6363e6ae46696335e2944
+  sha256: 55abf9ade563b8f9be1f34e4233c7b7bde726059947a593322e8a553cc4c067a
 
 build:
   number: 0
