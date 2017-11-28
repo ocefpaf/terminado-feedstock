@@ -11,7 +11,6 @@ source:
 build:
   number: 0
   script: python setup.py install
-  skip: True  # [win and py27]
 
 requirements:
   build:
